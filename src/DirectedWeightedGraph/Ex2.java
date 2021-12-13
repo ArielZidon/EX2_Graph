@@ -87,6 +87,7 @@ public class Ex2 {
 
 
     public static void main(String[] args) {
+        runGUI(args[0]);
         DirectedWeightedGraph b = getGrapg("data//G2.json");
         myDirectedWeightedGraphAlgorithms algograph;
         algograph = new myDirectedWeightedGraphAlgorithms();
