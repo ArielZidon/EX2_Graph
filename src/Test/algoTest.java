@@ -7,11 +7,11 @@ import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
 
-public class graphTest {
+public class algoTest {
         public DirectedWeightedGraphAlgorithms Graph;
         public DirectedWeightedGraph graph;
 
-        graphTest() {
+    algoTest() {
             //import from "data" file
             graph = Ex2.getGrapg("data//G1.json"); // enter here the path for G1 json file
             Graph = Ex2.getGrapgAlgo("data//1000Nodes.json");
